@@ -4,4 +4,9 @@ title: Abbie Llewelyn
 ---
 <div class="blurb">
 	<h1>Hi there, I'm Abbie</h1>
+	<h2>My articles:</h2>
+	{% for post in site.categories.Article %}
+		<h4>{{ post.title }}</h4>
+		<p>Article content: {{ post.content }}</p>
+	{% endfor %}
 </div>
