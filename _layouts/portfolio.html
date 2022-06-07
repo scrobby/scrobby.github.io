@@ -1,0 +1,12 @@
+---
+# This layout uses the posts to make a portfolio. Need to do a lot more work to it before it's functional
+layout: default
+---
+
+<ul>
+    {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url | relative_url }}">{{post.title}}</a>
+        </li>
+    {% endfor %}
+</ul>

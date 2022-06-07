@@ -28,7 +28,6 @@ twitter_username: scrobby
 github_username:  scrobby
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
